@@ -2,7 +2,7 @@ package itsfcp.isc.edu.Hourhand;
 import android.annotation.TargetApi;
 
 
-//cosas por hacer
+//actualizate
 import android.app.ProgressDialog;
 import android.content.ContentValues;
 import android.content.Context;

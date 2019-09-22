@@ -33,6 +33,6 @@ public class Database extends SQLiteAssetHelper {
         db.execSQL("DROP TABLE IF EXISTS agenda ");
         onCreate(db);
 
-        //Esto es una prueba :V
+        //Esto es una prueba de commit :V
     }
 }

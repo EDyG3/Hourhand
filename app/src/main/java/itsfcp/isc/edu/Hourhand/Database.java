@@ -32,5 +32,7 @@ public class Database extends SQLiteAssetHelper {
         db.execSQL("DROP TABLE IF EXISTS grupo ");
         db.execSQL("DROP TABLE IF EXISTS agenda ");
         onCreate(db);
+
+        //Prueba de actualización
     }
 }

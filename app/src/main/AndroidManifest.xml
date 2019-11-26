@@ -2,6 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="itsfcp.isc.edu.Hourhand">
 
+    <protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:hardwareAccelerated="false"
@@ -11,10 +21,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Activity_Cambios_Text"></activity>
+        <activity android:name=".Activity_Cambios" />
+        <activity android:name=".Activity_Personalizacion" />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
-
         <activity
             android:name=".splashActivity"
             android:screenOrientation="portrait">
@@ -45,6 +57,7 @@
         <activity
             android:name=".EditHorarioActivity"
             android:screenOrientation="portrait" />
+
         <receiver android:name=".widget.horaio22">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -54,7 +67,6 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/horaio22_info" />
         </receiver>
-
         <receiver
             android:name=".MyAlarmReceiver"
             android:enabled="false">
@@ -67,15 +79,5 @@
             android:name=".MyTestService"
             android:exported="false" />
     </application>
-    <protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.READ_CALENDAR" />
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-
-    <uses-permission android:name="android.permission.INTERNET" />
-
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
 </manifest>

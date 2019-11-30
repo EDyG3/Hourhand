@@ -14,7 +14,9 @@
         <activity android:name=".Activity_Cambios_Text" />
 
         <activity android:name=".Activity_Cambios" />
-        <activity android:name=".Activity_Personalizacion" />
+        <activity android:name=".Activity_Personalizacion"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />

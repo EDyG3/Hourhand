@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.widget.RemoteViews;
 
+import itsfcp.isc.edu.Hourhand.ActivityPersonalizacion2;
 import itsfcp.isc.edu.Hourhand.Activity_Personalizacion;
 import itsfcp.isc.edu.Hourhand.R;
 import itsfcp.isc.edu.Hourhand.WidgetService;
@@ -36,7 +37,7 @@ public class Vista2x3 extends AppWidgetProvider {
         for (int appWidgetId : appWidgetIds) {
             updateAppWidget(context, appWidgetManager, appWidgetId);
 
-            Intent intent = new Intent(context, Activity_Personalizacion.class);
+            Intent intent = new Intent(context, ActivityPersonalizacion2.class);
             PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent,0);
 
             RemoteViews views = new RemoteViews(context.getPackageName(),R.layout.vista2x3);

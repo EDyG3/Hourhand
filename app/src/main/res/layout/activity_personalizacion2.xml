@@ -54,7 +54,7 @@
                 android:id="@+id/btnFondo"
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:layout_marginStart="300dp"
+                android:layout_marginStart="250dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp" />
 
@@ -79,7 +79,7 @@
 
             <SeekBar
                 android:id="@+id/seekBarFondo"
-                android:layout_width="357dp"
+                android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"
@@ -89,7 +89,7 @@
                 android:id="@+id/checkBox"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:layout_marginStart="315dp"
+                android:layout_marginStart="265dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginTop="95dp"
                 app:layout_column="0"
@@ -103,7 +103,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="250dp"
-        android:layout_marginBottom="250dp"
+        android:layout_marginBottom="220dp"
         android:padding="4dp"
         app:columnCount="1"
         app:rowCount="1" >
@@ -112,7 +112,7 @@
             android:layout_width="0dp"
             android:layout_height="100dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="60dp"
             android:layout_marginRight="10dp"
             android:foreground="?selectableItemBackground"
             app:cardCornerRadius="8dp"
@@ -143,9 +143,9 @@
 
             <Button
                 android:id="@+id/btnFondoText"
-                android:layout_width="60dp"
+                android:layout_width="51dp"
                 android:layout_height="60dp"
-                android:layout_marginStart="300dp"
+                android:layout_marginStart="260dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="20dp" />
 
@@ -162,7 +162,7 @@
 
             <SeekBar
                 android:id="@+id/seekBarText"
-                android:layout_width="357dp"
+                android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginLeft="20dp"

@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/esquinas_redondeadas"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_marginLeft="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/redirijir"
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mas" />
+
+        <TextView
+            android:id="@+id/fondotext"
+            android:layout_width="140dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-28dp"
+            android:text="hora y fecha"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="5dp">
+        <ListView
+            android:id="@+id/lista"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="0dp">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/siguiente"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/atras" />
+
+        <Button
+            android:id="@+id/atras"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/proximo" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
